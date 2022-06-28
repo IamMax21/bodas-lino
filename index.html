@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+        * {
+            margin: 0 auto 1rem;
+        }
+
+        body {
+            background: rgb(250, 248, 170);
+            background-repeat: no-repeat;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .hortensia {
+            margin: 0 auto -4rem;
+            width: 480px;
+        }
+
+        .nombre {
+            color: #89CFF0;
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            font-size: 4rem;
+            margin: 0;
+            animation: escala 2s ease-in;
+        }
+
+        @keyframes escala {
+            0% {
+            opacity: 0 ;
+            }
+
+            100% {
+            opacity: 1;  
+            }
+        }
+
+        h3 {
+            color: #5d8da3;
+            font-family: 'Lobster Two', cursive;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-top: 0%;
+
+        }
+
+        p {
+            color: #5d8da3;
+            font-family: 'Lobster Two', cursive;
+            animation: escala 2s ease-in;
+        }
+
+        .padre {
+            display: flex;
+            margin: auto;
+            width: fit-content;
+        }
+
+        .padre p {
+            margin-bottom: 0;
+        }
+
+        .hijo {
+            flex-basis: 50%;
+        }
+
+        .hijo p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="/images/hortensia-arquitos.png" class="hortensia">
+    <h1 class="nombre">
+        Nala y Lion
+    </h1>
+    <h3>
+        Tienen el gusto de invitarles a sus bodas de lino
+    </h3>
+    <div>
+        <p>
+            Celebremos el amor y la unión en una noche llena de pepitas, barf, galletitas y mucho más.
+        </p>
+    </div>
+    <div class="padre">
+        <div class="hijo">
+            <p>
+                Lugar: Barranquilla Club Campestre
+            </p>
+        </div>
+        <div class="hijo">
+            <p>
+                Hora: 7 pm
+            </p>
+        </div>
+    </div>
+    <div>
+        <p>
+            1 petito
+        </p>
+    </div>
+</body>
+
+</html>
